@@ -84,7 +84,8 @@ Clean-room projects built in my own time, with no work code or data.
 |---|---|---|
 | [FitBasket](https://github.com/bunki-dev/fitbasket) | Tool-using agent that plans meals and workouts around a sport schedule, with inline how-to videos, and builds a deals-aware grocery basket. Pydantic-typed tools shared by the LLM and an MCP server, guardrails in code, offline and LLM-as-judge evals. Python runs in the browser via Pyodide. | [Open the app](https://bunki-dev.github.io/fitbasket/) |
 | [Game Night](https://github.com/bunki-dev/game-night) | A party game hosted by an AI game master. Real-time FastAPI WebSockets, phones as controllers, QR join, an anonymous LLM judge with an injection filter, and judge-agreement evals. | [Play it](https://game-night-nq9e.onrender.com) |
-| ShelfTalk *(in progress)* | Text-to-SQL for a fictional grocery chain. A semantic-layer planner answers common questions with no model; an LLM agent handles the rest through an engine-level read-only guard that blocks personal data. Execution-accuracy evals in CI. | Coming soon |
+| [ShelfTalk](https://github.com/bunki-dev/shelftalk) | Text-to-SQL for a fictional grocery chain. A semantic-layer planner answers common questions with no model; an LLM agent handles the rest through an engine-level read-only guard that blocks personal data. Execution-accuracy evals in CI. | [Ask it](https://bunki-dev.github.io/shelftalk/) |
+| [Bunki HQ](https://github.com/bunki-dev/bunki-hq) | My personal assistant as a talking orb that runs a small company of AI agents across my projects: tool-using agents with role-scoped tools, delegation, atomic task checkout, approval gates for anything external, per-agent budgets that auto-pause, and live build health from GitHub. TypeScript, runs in the browser or on a PC with SQLite. | [Open it](https://bunki-dev.github.io/bunki-hq/) |
 
 ## How I work
 
